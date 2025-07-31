@@ -764,3 +764,34 @@
 // }
 // console.log(number("olti"));
 
+// 68.Funskiyaga sonlar massivi beriladi, va 2-argument sifatida
+// bitta son beriladi agar ushbu son massivni ichida bo’lsa funksiya
+// true qaytarsin, aks holda false.
+
+// function bormi(arr, son) {
+//   if (arr.includes(son)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(bormi([1, 2, 3, 4, 5], 3));
+
+// 69.Funskiya sonlar va stringlar massivi berilsa, massivning
+// ichidagi sonlarni stringga o’girib, ushbu massivni funksiya yana
+// qaytarib bersin.
+
+// function sonString(arr) {
+//   return arr.map((el) => el.toString());
+// }
+// console.log(sonString([1, 2, "a", "b"]));
+
+// 70.Kubik rubik yasash uchun kubikchalar kerak bo’ladi.
+// Funksiya kubik rubikni necha qatorligiga qarab turib,
+// kubikchalar sonini qaytasin.
+
+// function kubik(x) {
+//   let res = x * x;
+//   return res * 6;
+// }
+// console.log(kubik(3));
