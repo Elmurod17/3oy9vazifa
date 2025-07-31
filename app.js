@@ -173,6 +173,7 @@
 //     i++;
 //   }
 // }
+// printLowercase("Salom");
 
 // 14-masala
 
@@ -202,3 +203,4 @@
 //   }
 //   return result;
 // }
+// console.log(replaceE("hello"));
